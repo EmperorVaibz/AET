@@ -1,4 +1,6 @@
 %%Cooridinate array
+T = readtable("worldcities.csv");
+T(1:5,1:5)
 latstart=53.32055555555556;
 lonstart=-1.7297222222222221;
 latend=53.31861111111111;
