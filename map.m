@@ -2,7 +2,6 @@
 T = readtable("worldcities.csv");
 cityarr=T.Var1;
 countryarr=T.country;
-T(1:5,1:5)
 
 %%Setting coordinates
 city1="Istanbul";
@@ -29,8 +28,10 @@ lonend=T{indc2,"lng"};
 
 %Calculating the distance
 distance=6371*acos(sin(latstart/(180/pi))*sin(latend/(180/pi))+cos(latstart/(180/pi))*cos(latend/(180/pi))*cos(lonstart/(180/pi)-lonend/(180/pi)));
+distance=sprintf('%.6f',distance);
 
 %Drawing the map
 figure
 geoplot([latstart,latend],[lonstart,lonend],'-*')
+text((latstart+latend)/2,(lonstart+lonend)/2,"   "+distance+" kilometers");
 geobasemap streets
