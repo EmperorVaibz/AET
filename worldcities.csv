@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id
 Tokyo,Tokyo,35.6897,139.6922,Japan,JP,JPN,Tōkyō,primary,37732000,1392685764
 Jakarta,Jakarta,-6.175,106.8275,Indonesia,ID,IDN,Jakarta,primary,33756000,1360771077
@@ -19646,3 +19647,6 @@ Duptiair,Duptiair,23.991,89.7982,Bangladesh,BD,BGD,Dhaka,,26336,1050168412
 Elói Mendes,Eloi Mendes,-21.6103,-45.5689,Brazil,BR,BRA,Minas Gerais,,26336,1076184209
 Kirzhach,Kirzhach,56.15,38.8667,Russia,RU,RUS,Vladimirskaya Oblast’,minor,26331,1643096892
 Cheranallūr,Cheranallur,10.1807,76.4792,India,IN,IND,Kerala,,26330,1356
+=======
+Taken from https://simplemaps.com/data/world-cities
+>>>>>>> 6fa28405341a7b1cb599428f8233e6d088eec9b7
