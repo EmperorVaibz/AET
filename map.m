@@ -1,22 +1,23 @@
 %%Cooridinate array
 T = readtable("worldcities.csv");
 cityarr=T.Var1;
+cityarr2=T.city_ascii;
 countryarr=T.country;
 
 %%Setting coordinates
-city1="Istanbul";
-country1="Turkey";
-city2="Lagos";
-country2="Nigeria";
+city1="Madurai";
+country1="India";
+city2="Vientiane";
+country2="Laos";
 indc1=1;
 indc2=2;
 for k = 1:numel(cityarr)
-    if cityarr{k}==city1&&countryarr{k}==country1
+    if (cityarr{k}==city1||cityarr2{k}==city1)&&countryarr{k}==country1
         indc1=k;
     end
 end
 for k = 1:numel(cityarr)
-    if cityarr{k}==city2&&countryarr{k}==country2
+    if (cityarr{k}==city2||cityarr2{k}==city2)&&countryarr{k}==country2
         indc2=k;
     end
 end
