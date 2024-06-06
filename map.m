@@ -5,10 +5,10 @@ cityarr2=T.city_ascii;
 countryarr=T.country;
 
 %%Setting coordinates
-city1="Madurai";
-country1="India";
-city2="Vientiane";
-country2="Laos";
+city1="San Jose";
+country1="United States";
+city2="Toronto";
+country2="Canada";
 indc1=1;
 indc2=2;
 for k = 1:numel(cityarr)
